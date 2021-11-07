@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food You Have</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./index.css" />
+        <title>Food You Have</title>
+    </head>
+    <body>
+        <header>
+            <h1>Logo Here</h1>
+            <nav>
+                <a href="#">Recipes</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+        <section class="middle">
+            <div class="top">
+                <h1>Enter Ingredients!</h1>
+                <p>feel free to add as many ingredients as you want to</p>
+                <div class="formContainer">
+                    <form action="">
+                        <input type="text" placeholder="Ingredients..." />
+                        <input type="button" value="submit" />
+                    </form>
+                </div>
+                <div class="displayUserIngredients"></div>
+            </div>
+            <div class="bottom">
+                <h2>Here are some recipes that work with that!</h2>
+                <div class="recipeContainer"></div>
+            </div>
+        </section>
+        <footer>
+            <nav class="footerNav">
+                <a href="#">Recipes</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+            <p>&copy Food You Have 2021</p>
+        </footer>
+    </body>
 </html>
